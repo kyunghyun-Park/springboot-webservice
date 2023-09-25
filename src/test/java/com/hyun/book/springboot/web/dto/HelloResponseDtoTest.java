@@ -3,6 +3,9 @@ package com.hyun.book.springboot.web.dto;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloResponseDtoTest {
@@ -20,4 +23,6 @@ public class HelloResponseDtoTest {
         assertThat(dto.getName()).isEqualTo(name);
         assertThat(dto.getAmount()).isEqualTo(amount);
     }
+
+
 }
