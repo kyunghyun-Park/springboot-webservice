@@ -37,3 +37,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### oauth info ###
+applicaiton-oauth.properties
