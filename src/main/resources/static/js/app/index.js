@@ -34,5 +34,3 @@ var main = {
         });
     }
 };
-
-main.init();
