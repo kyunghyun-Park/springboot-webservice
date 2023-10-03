@@ -12,9 +12,6 @@ buildscript {
 }
 
 apply plugin: 'java'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
